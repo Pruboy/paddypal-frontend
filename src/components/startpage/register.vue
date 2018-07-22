@@ -35,8 +35,12 @@
     </v-btn>
     <v-btn @click="clear">clear</v-btn>
   </v-form>
+<<<<<<< HEAD
 </template>
 
 <script>
 export default {}
 </script>
+=======
+</template>
+>>>>>>> 633b0570581e73a1d70cfdc496f3ac6826698cc3

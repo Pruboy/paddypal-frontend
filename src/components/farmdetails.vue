@@ -6,6 +6,7 @@
           <v-layout align-center justify-center >
             <v-flex xs12 sm8 >
               <v-card class="elevation-12" >
+<<<<<<< HEAD
                  <v-data-table
     :headers="headers"
     :items="desserts"
@@ -37,15 +38,32 @@
           {{ props.item.name }}</v-btn>
         
       </td>
+=======
+                <v-data-table
+    :headers="headers"
+    :items="desserts"
+    hide-actions
+    class="elevation-1"
+
+
+  >
+    <template slot="items" slot-scope="props" >
+      <td>{{ props.item.name }}</td>
+>>>>>>> 633b0570581e73a1d70cfdc496f3ac6826698cc3
       <td class="text-xs-right">{{ props.item.calories }}</td>
       <td class="text-xs-right">{{ props.item.fat }}</td>
       <td class="text-xs-right">{{ props.item.carbs }}</td>
       <td class="text-xs-right">{{ props.item.protein }}</td>
       <td class="text-xs-right">{{ props.item.iron }}</td>
+<<<<<<< HEAD
       <td class="button">{{ props.item.iron }}</td>
     </template>
   </v-data-table>
 
+=======
+    </template>
+  </v-data-table>
+>>>>>>> 633b0570581e73a1d70cfdc496f3ac6826698cc3
               </v-card>
             </v-flex>
           </v-layout>
@@ -60,8 +78,11 @@
   export default {
     data () {
       return {
+<<<<<<< HEAD
         search: '',
         selected: [],
+=======
+>>>>>>> 633b0570581e73a1d70cfdc496f3ac6826698cc3
         headers: [
           {
             text: 'Dessert (100g serving)',
@@ -84,6 +105,7 @@
             carbs: 24,
             protein: 4.0,
             iron: '1%'
+<<<<<<< HEAD
           },
           {
             value: false,
@@ -165,6 +187,8 @@
             carbs: 65,
             protein: 7,
             iron: '6%'
+=======
+>>>>>>> 633b0570581e73a1d70cfdc496f3ac6826698cc3
           }
         ]
       }

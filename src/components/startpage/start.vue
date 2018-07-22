@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <v-container fluid>
     <v-layout row wrap>
       <v-flex xs12 text-xs-center mt-5>
@@ -21,3 +22,7 @@
 <script>
 export default {}
 </script>
+=======
+    <h1>abc</h1>
+</template>
+>>>>>>> 633b0570581e73a1d70cfdc496f3ac6826698cc3
