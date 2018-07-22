@@ -36,3 +36,7 @@
     <v-btn @click="clear">clear</v-btn>
   </v-form>
 </template>
+
+<script>
+export default {}
+</script>
